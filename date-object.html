@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // How to create a date object
+      let d1 = new Date();
+      console.log(d1.toDateString());
+      console.log(d1.toLocaleDateString());
+      console.log(d1.toLocaleTimeString());
+      console.log(d1.toLocaleString());
+
+      let d2 = new Date(1972, 5, 6);
+      let d3 = new Date("2022-04-01T12:00:00Z");
+      let d4 = new Date("12 December 1982"); // December 12, 1992
+
+      let d5 = new Date("2004-06-25"); // June 24, 2004 <--------------- issue!
+    </script>
+  </body>
+</html>
